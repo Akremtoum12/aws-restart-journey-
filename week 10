@@ -1,0 +1,102 @@
+📅 Week 10 – Overview
+
+✅ Topics Covered:
+
+AWS Systems Manager
+
+Learned how to automate operational tasks like software inventory collection, OS patching, configuration, and image creation.
+
+Understood its value for both cloud and on-premises system management, especially for SysOps workflows.
+
+Automation & Management Tools
+
+Gained insight into how AWS helps reduce manual administration by offering scalable, centralised tools.
+
+Explored how Systems Manager interacts with EC2 and hybrid environments.
+
+Practical Use Cases
+
+Discussed scenarios where Systems Manager would be used in real cloud environments (e.g. patching fleets of instances or running automated scripts).
+
+Recognised the importance of automation in cloud operations and job efficiency.
+
+Elastic Beanstalk & Troubleshooting EC2
+
+Explored how Elastic Beanstalk simplifies deployment and scaling.
+
+Practiced troubleshooting EC2 instance creation.
+
+Scaling & Auto Scaling
+
+Learned how AWS allows automatic scaling of compute resources based on demand.
+
+Covered scale out (increase capacity), scale in (reduce capacity), and Auto Scaling features.
+
+Benefits include fault tolerance, high availability, better performance, and cost optimization.
+
+Elastic Load Balancing (ELB)
+
+Learned how ELB distributes incoming traffic across multiple compute targets.
+
+Provides high availability, fault tolerance, health checks, SSL termination, and layer 4/layer 7 balancing.
+
+Integrated with CloudWatch for monitoring.
+
+🧐 Key Takeaways:
+
+Systems Manager is crucial for maintaining system health and enforcing security at scale.
+
+Automation is a major pillar of cloud computing — helping reduce human error and improve reliability.
+
+Being familiar with these tools prepares me for real-world SysOps and Cloud Support roles.
+
+Elastic Beanstalk abstracts much of the infrastructure management.
+
+Troubleshooting EC2 builds confidence in managing real-world deployment issues.
+
+Auto Scaling and ELB work together to keep cloud applications highly available, cost-effective, and scalable.
+
+Gained hands-on experience building full-stack web apps on AWS EC2 using automation and user data.
+
+🧪 Labs Completed:
+
+Using AWS Systems Manager
+
+Overview: Explored how AWS Systems Manager centralises operational data and automates tasks across AWS resources.
+
+Objectives Achieved:
+
+Verified configurations and permissions.
+
+Ran tasks on multiple servers.
+
+Updated application settings and configurations.
+
+Accessed the command line of an EC2 instance via Systems Manager Session Manager.
+
+Tools Used: AWS Systems Manager, EC2 instances.
+
+Key Learning: Learned to manage infrastructure at scale using automation tools built into AWS.
+
+Lab 173: Launching EC2 Instances and Deploying a LAMP Stack
+
+Used AWS CLI to launch an EC2 instance.
+
+Installed and configured Apache, MariaDB, and PHP using user data script.
+
+Deployed website files and configured database backend.
+
+Hosted the Café Web Application on EC2.
+
+Lab: Scaling, Load Balancing & Monitoring
+
+Created an AMI (Amazon Machine Image) from an EC2 instance.
+
+Set up a Load Balancer to distribute traffic.
+
+Created a Launch Template and Auto Scaling Group.
+
+Configured Auto Scaling to launch new instances into private subnets.
+
+Used CloudWatch Alarms to monitor infrastructure performance and trigger scaling actions.
+
